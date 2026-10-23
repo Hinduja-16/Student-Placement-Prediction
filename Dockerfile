@@ -4,7 +4,5 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 COPY mlruns ./mlruns
-COPY mlflow.db ./mlflow.db
-ENV MLFLOW_TRACKING_URI=sqlite:////app/mlflow.db
 EXPOSE 8000
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
