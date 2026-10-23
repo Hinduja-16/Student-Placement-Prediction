@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/E.JASWANTH/MLOps_Student_Placement/mlruns/1/models/m-fc06325699b34ca1b8a3b9e6f077178f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-fc06325699b34ca1b8a3b9e6f077178f
+model_size_bytes: 137828
+model_uuid: m-fc06325699b34ca1b8a3b9e6f077178f
+prompts: null
+run_id: 319546a05310400cb7767016c53ce1c7
+utc_time_created: '2026-09-23 13:46:25.091000'
